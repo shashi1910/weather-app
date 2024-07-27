@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-import json  # Importing json module
+import json  
 from data_retrieval import fetch_current_weather, fetch_weather_forecast
 from utils import format_weather_data
 from cache import cache_weather_data, get_cached_weather_data

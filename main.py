@@ -6,11 +6,11 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = WeatherApp(root)
     
-    # Loading the settings
+    
     settings = load_settings()
     app.units = settings.get('units', 'metric')
     
-    # Saving the settings on exit
+    
     def on_exit():
         settings = {
             'units': app.units,
